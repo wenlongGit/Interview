@@ -29,7 +29,7 @@ public class StringRotate {
                 s1[j] = s1[j+1];
             }
             s1[len-1] = tempChar;
-            if(array2Str(s2).contains(array2Str(s1))){
+            if(array2Str(s1).contains(array2Str(s2))){
                 flag=true;
             }
         }
